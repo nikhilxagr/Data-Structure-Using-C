@@ -1,0 +1,35 @@
+# Compiled executables
+*.exe
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Debug files
+*.pdb
+*.ilk
+
+# VS Code specific
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Output directories
+bin/
+obj/
+out/
