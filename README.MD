@@ -1,253 +1,450 @@
-# Data-Structure-Using-C 📚💻
+<div align="center">
 
-A collection of classic data structure and algorithm implementations in C, organized as small, easy-to-understand programs and examples. This repository is ideal for students learning data structures, interview preparation, or anyone who wants clear, idiomatic C implementations of common data structures and algorithms. 🚀
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Data%20Structures%20in%20C&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35)
 
----
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C Logo" width="100" height="100"/>
 
-## Table of Contents 📑
+### 📖 Mastering Data Structures from Ground Up
 
-- [Project Overview](#project-overview) 🔍
-- [Goals](#goals) 🎯
-- [Language and Tools](#language-and-tools) 🛠️
-- [Repository Structure](#repository-structure) 📁
-- [Implemented Data Structures & Algorithms](#implemented-data-structures--algorithms) 🧩
-- [Build & Run Instructions](#build--run-instructions) ⚙️
-- [Usage Examples](#usage-examples) 🧪
-- [Testing](#testing) ✅
-- [Contributing](#contributing) 🤝
-- [Coding Style & Guidelines](#coding-style--guidelines) 🧭
-- [Issues & Feature Requests](#issues--feature-requests) 🐛
-- [License](#license) 📝
-- [Acknowledgements](#acknowledgements) 🌟
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://www.cprogramming.com/)
+[![Learning](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/nikhilxagr)
+[![GitHub](https://img.shields.io/badge/GitHub-nikhilxagr-181717?style=for-the-badge&logo=github)](https://github.com/nikhilxagr)
 
 ---
 
-## Project Overview 🔎
+_A comprehensive collection of Data Structure implementations in pure C programming_
 
-This repository contains plain C implementations of data structures and algorithms with the aim of being:
-- Minimal and focused (one concept per file/example). ✂️
-- Readable and well-documented to aid learning. 🧠
-- Easy to compile and run with common toolchains (gcc / clang). 🧰
-- Suitable as reference implementations for educational purposes. 🎓
+</div>
 
----
+<br/>
 
-## Goals 🎯
+## 📋 Table of Contents
 
-- Provide clear, commented C code for classical data structures. 🧩
-- Demonstrate how to implement and use each structure. 🛠️
-- Offer small example programs to exercise and test implementations. 🧪
-- Encourage contributions (fixes, new structures, better examples). 🤝
+- [About](#-about)
+- [Learning Path](#-learning-path)
+- [Topics Covered](#-topics-covered)
+- [Code Structure](#-code-structure)
+- [Progress](#-progress)
+- [Code Examples](#-code-examples)
+- [Time Complexity](#-time-complexity-reference)
+- [Resources](#-resources)
+- [Getting Started](#-getting-started)
 
----
+<br/>
 
-## Language and Tools 🛠️
+## 🎯 About
 
-- Primary language: C (C11 recommended) 🧾
-- Compiler: GCC or Clang 🧰
-- Build tools: make (optional) — examples provided as simple gcc commands so `make` is optional. ⚙️
+This repository documents my complete journey of learning and implementing Data Structures using pure C programming. Each implementation includes detailed explanations, well-commented code, and practical examples to demonstrate real-world applications.
 
----
+**What's Inside:**
 
-## Repository Structure 📂
+- ✨ 100% Pure C implementations
+- 📝 Comprehensive documentation
+- 💡 Practical, interview-ready examples
+- 🎯 Topic-wise organized structure
+- 🚀 Beginner to advanced concepts
+- ⚡ Optimized algorithms with time complexity analysis
 
-A recommended layout (actual folders/files may vary):
+<br/>
 
-- src/                 — Source code (one directory per topic or flat layout) 📁
-  - arrays/
-  - linked_list/
-  - stack/
-  - queue/
-  - tree/
-  - graph/
-  - sorting/
-  - searching/
-- include/             — Header files (shared APIs) 📘
-- examples/            — Small programs that demonstrate usage 🧪
-- tests/               — Test programs or scripts ✅
-- docs/                — Additional notes, explanations, diagrams 📝
-- README.md            — This file 📄
-- LICENSE              — Project license (MIT suggested) 📜
+## 🗺️ Learning Path
 
-Note: If your repository currently has a different structure, adapt the build/run instructions accordingly. 🔧
+<div align="center">
 
----
+```
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│   Basics    │  →   │   Linear    │  →   │ Non-Linear  │
+│  & Arrays   │      │  Structures │      │  Structures │
+└─────────────┘      └─────────────┘      └─────────────┘
+      ↓                     ↓                     ↓
+  C Fundamentals      Linked Lists             Trees
+  Array Operations    Stacks & Queues       Graphs
+  ADT Concepts        Sorting Algos         Hashing
+  Pointers           Searching              Advanced DS
+```
 
-## Implemented Data Structures & Algorithms 🧩
+</div>
 
-Common implementations you should find (or can add):
+<br/>
 
-- Linear structures
-  - Arrays (dynamic array examples) 📊
-  - Singly Linked List (insert, delete, reverse, find) 🔗
-  - Doubly Linked List ↔️
-  - Circular Linked List 🔁
-  - Stack (array-based & linked-list-based) 🗂️
-  - Queue (array-based, circular queue, linked-list-based) 🎛️
-  - Deque ↔️
+## 📚 Topics Covered
 
-- Trees 🌳
-  - Binary Search Tree (insert, delete, traversal) 🔍
-  - AVL Tree (balanced BST) ⚖️
-  - Heap (binary heap: min/max) 🏗️
-  - Binary Tree traversals (inorder, preorder, postorder, level-order) 🔁
+### **1. C Programming Fundamentals**
 
-- Graphs 🌐
-  - Adjacency list representation 🗺️
-  - BFS, DFS 🔎
-  - Dijkstra (single-source shortest path) 🛣️
-  - Topological sort 📈
+<table>
+<tr>
+<td width="50%">
 
-- Hashing 🔐
-  - Separate chaining hashmap 🧾
-  - Open addressing examples 🧷
+**📌 Core Concepts**
 
-- Sorting & Searching 🔎
-  - Bubble, Selection, Insertion 🧼
-  - Merge sort, Quick sort, Heap sort ⚡
-  - Binary search 🔍
+- Variables & Constants
+- Data Types & Type Casting
+- Pointers & Memory Management
+- Structures & Unions
+- Dynamic Memory (`malloc`, `calloc`, `free`)
+- File Handling
 
-- Misc / Utilities 🧰
-  - Memory management helpers 🧠
-  - Basic test harnesses for each module 🧪
+</td>
+<td width="50%">
 
-If a particular implementation is missing, feel free to open an issue or contribute a PR. ✨
+**🔄 Advanced Concepts**
 
----
+- Pointer Arithmetic
+- Double Pointers
+- Function Pointers
+- Memory Leaks Prevention
+- Recursion
+- Preprocessor Directives
 
-## Build & Run Instructions ⚙️
+</td>
+</tr>
+</table>
 
-These examples assume a Unix-like environment with gcc installed. Replace filenames/paths to match your repo layout.
+### **2. Array & ADT**
 
-Compile a single example:
+<table>
+<tr>
+<td width="50%">
+
+**📊 Array Operations**
+
+- Array Declaration & Initialization
+- Traversal & Searching
+- Insertion & Deletion
+- Multi-dimensional Arrays
+- Array Rotation
+- Matrix Operations
+
+</td>
+<td width="50%">
+
+**🎯 Abstract Data Types**
+
+- ADT Concepts
+- Array ADT Implementation
+- Generic Operations
+- Time Complexity Analysis
+- Space Optimization
+- Real-world Applications
+
+</td>
+</tr>
+</table>
+
+### **3. Linked Lists**
+
+<table>
+<tr>
+<td width="50%">
+
+**🔗 Types of Linked Lists**
+
+- **Singly Linked List** - One-way traversal
+- **Doubly Linked List** - Bidirectional traversal
+- **Circular Linked List** - Loop structure
+- **Circular Doubly List** - Advanced traversal
+
+</td>
+<td width="50%">
+
+**⚙️ Operations**
+
+- Insert (Beginning, End, Middle)
+- Delete (By Value, Position)
+- Search & Display
+- Reverse & Sort
+- Concatenation
+- Finding Middle Element
+
+</td>
+</tr>
+</table>
+
+### **4. Stack Data Structure**
+
+<table>
+<tr>
+<td width="50%">
+
+**📚 Stack Fundamentals**
+
+- LIFO Principle
+- Array-based Stack
+- Linked List-based Stack
+- Dynamic Stack
+- Multiple Stacks
+
+</td>
+<td width="50%">
+
+**🎯 Applications**
+
+- **Parenthesis Matching** - Expression validation
+- **Infix to Postfix** - Expression conversion
+- **Expression Evaluation** - Calculate results
+- **Function Calls** - Call stack simulation
+- **Browser History** - Navigation
+
+</td>
+</tr>
+</table>
+
+### **5. Queue Data Structure**
+
+<table>
+<tr>
+<td width="50%">
+
+**📥 Queue Types**
+
+- **Simple Queue** - FIFO principle
+- **Circular Queue** - Efficient space usage
+- **Priority Queue** - Priority-based
+- **Deque** - Double-ended operations
+
+</td>
+<td width="50%">
+
+**⚙️ Operations & Uses**
+
+- Enqueue & Dequeue
+- Front & Rear Access
+- Queue Overflow/Underflow
+- CPU Scheduling
+- Breadth-First Search
+- Print Spooling
+
+</td>
+</tr>
+</table>
+
+### **6. Tree Data Structures**
+
+<table>
+<tr>
+<td width="50%">
+
+**🌳 Tree Types**
+
+- **Binary Tree** - Max 2 children
+- **Binary Search Tree** - Ordered binary tree
+- **AVL Tree** - Self-balancing BST
+- **Heap** - Complete binary tree
+- **Expression Tree** - Mathematical expressions
+
+</td>
+<td width="50%">
+
+**🔄 Tree Operations**
+
+- Insertion & Deletion
+- Tree Traversals:
+  - Inorder (Left-Root-Right)
+  - Preorder (Root-Left-Right)
+  - Postorder (Left-Right-Root)
+  - Level Order (BFS)
+- Height & Depth Calculation
+- Balance Factor
+
+</td>
+</tr>
+</table>
+
+### **7. Sorting Algorithms**
+
+<table>
+<tr>
+<td width="50%">
+
+**🔄 Simple Sorts**
+
+- **Bubble Sort** - Adjacent comparisons
+- **Selection Sort** - Minimum selection
+- **Insertion Sort** - Incremental sorting
+
+</td>
+<td width="50%">
+
+**⚡ Advanced Sorts**
+
+- **Merge Sort** - Divide & Conquer
+- **Quick Sort** - Partition-based
+- **Heap Sort** - Heap-based sorting
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 📁 Code Structure
+
+```
+DSA-in-C/
+│
+├── 📂 01_Basics of C Programming/
+│   ├── pointers.c
+│   ├── structures.c
+│   ├── dynamic_memory.c
+│   └── file_handling.c
+│
+├── 📂 02_Array Operation/
+│   ├── array_basics.c
+│   ├── insertion_deletion.c
+│   ├── searching.c
+│   └── rotation.c
+│
+├── 📂 03_Array and ADT/
+│   ├── adt_implementation.c
+│   ├── generic_operations.c
+│   └── time_complexity.c
+│
+├── 📂 04_Linked List/
+│   ├── singly_linked_list.c
+│   ├── doubly_linked_list.c
+│   ├── circular_linked_list.c
+│   └── operations.c
+│
+├── 📂 05_Stack/
+│   ├── array_stack.c
+│   ├── linked_stack.c
+│   ├── parenthesis_match.c
+│   └── infix_postfix.c
+│
+├── 📂 06_Queue/
+│   ├── simple_queue.c
+│   ├── circular_queue.c
+│   ├── priority_queue.c
+│   └── deque.c
+│
+├── 📂 07_Tree Data Structure/
+│   ├── binary_tree.c
+│   ├── binary_search_tree.c
+│   ├── tree_traversals.c
+│   └── avl_tree.c
+│
+├── 📂 08_Sorting/
+│   ├── bubble_sort.c
+│   ├── selection_sort.c
+│   ├── insertion_sort.c
+│   ├── merge_sort.c
+│   ├── quick_sort.c
+│   └── heap_sort.c
+│
+├── 📂 09_A to Z Practice/
+│   └── [Practice Problems]
+│
+├── 📂 10_Time Complexity Ques/
+│   └── [Analysis Problems]
+│
+└── README.MD
+```
+
+<br/>
+
+## 📊 Progress
+
+<div align="center">
+
+| Topic              | Status |             Completion             |
+| :----------------- | :----: | :--------------------------------: |
+| C Basics           |   ✅   | ![](https://geps.dev/progress/100) |
+| Array & ADT        |   ✅   | ![](https://geps.dev/progress/100) |
+| Linked Lists       |   ✅   | ![](https://geps.dev/progress/100) |
+| Stack              |   ✅   | ![](https://geps.dev/progress/100) |
+| Queue              |   🔄   | ![](https://geps.dev/progress/80)  |
+| Tree Structures    |   🔄   | ![](https://geps.dev/progress/70)  |
+| Sorting Algorithms |   🔄   | ![](https://geps.dev/progress/60)  |
+| Advanced Topics    |   ⏳   | ![](https://geps.dev/progress/30)  |
+
+**Legend:** ✅ Completed | 🔄 In Progress | ⏳ Upcoming
+
+</div>
+
+<br/>
+
+## 📖 Resources
+
+### **📚 Documentation**
+
+- [Official C Documentation](https://devdocs.io/c/)
+- [C Tutorial - W3Schools](https://www.w3schools.com/c/)
+- [GeeksforGeeks C Programming](https://www.geeksforgeeks.org/c-programming-language/)
+
+### **🎥 Video Tutorials**
+
+- YouTube C Programming Playlists
+- Online Course Platforms (Udemy, Coursera)
+
+### **📝 Practice Platforms**
+
+- [LeetCode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/domains/c)
+- [CodeChef](https://www.codechef.com/)
+
+<br/>
+
+## 🚀 Getting Started
+
+### **Prerequisites**
+
+- C Compiler (GCC, MinGW, or Clang)
+- Any IDE (VS Code, Code::Blocks, Dev-C++)
+
+### **Setup & Run**
+
 ```bash
-gcc -std=c11 -Wall -Wextra -O2 -Iinclude -o bin/example_name src/linked_list/linked_list_example.c
-./bin/example_name
+# Clone the repository
+git clone https://github.com/nikhilxagr/DSA-in-C.git
+
+# Navigate to the directory
+cd "DSA in C"
+
+# Compile a C file
+gcc filename.c -o output
+
+# Run the program
+./output           # Linux/Mac
+output.exe         # Windows
 ```
 
-Compile multiple files or a module:
-```bash
-gcc -std=c11 -Wall -Wextra -O2 -Iinclude -o bin/bst src/tree/bst.c src/tree/bst_example.c
-./bin/bst
-```
+<br/>
 
-Using a Makefile (if present):
-```bash
-make            # builds default target (often all examples)
-make clean      # removes build artifacts
-```
+## 🎯 Learning Goals
 
-Recommended compiler flags:
-- -std=c11
-- -Wall -Wextra -Wpedantic
-- -g (for debugging) or -O2 (for optimized builds) ⚙️
+- [x] ✅ Master C programming fundamentals
+- [x] ✅ Understand pointers and memory management
+- [x] ✅ Complete array and ADT implementations
+- [x] ✅ Implement all linked list types
+- [x] ✅ Master stack data structure
+- [ ] 🎯 Complete queue implementations
+- [ ] 🎯 Implement all tree structures
+- [ ] 🎯 Master sorting algorithms
+- [ ] 🎯 Solve 100+ DSA problems
 
----
+<br/>
 
-## Usage Examples 🧪
+## 🤝 Connect With Me
 
-Example: Running a linked list example (adjust to actual file names):
+<div align="center">
 
-1. Compile:
-   gcc -std=c11 -Wall -Wextra -Iinclude -o bin/linked_list_example src/linked_list/linked_list_example.c src/linked_list/linked_list.c
+[![GitHub](https://img.shields.io/badge/GitHub-nikhilxagr-181717?style=for-the-badge&logo=github)](https://github.com/nikhilxagr)
+[![Repository](https://img.shields.io/badge/Repository-DSA--in--C-blue?style=for-the-badge&logo=github)](https://github.com/nikhilxagr/DSA-in-C)
 
-2. Run:
-   ./bin/linked_list_example
+</div>
 
-Each example prints explanatory output and demonstrates operations (insert, delete, traverse, etc.). 📣
+<br/>
+
+<div align="center">
 
 ---
 
-## Testing ✅
+### ⭐ If you find this helpful, consider starring the repository!
 
-- Tests may be found in the `tests/` directory (if present). 🧾
-- Tests are small programs that assert expected behavior and print PASS/FAIL. ✅
-- To add tests:
-  - Add a small C test file in tests/.
-  - Use assertions or explicit checks and return non-zero on failure.
-  - Optionally integrate with a continuous integration workflow (GitHub Actions). 🔁
+**Made with ❤️ and ☕ by Nikhil**
 
-Example test run:
-```bash
-gcc -std=c11 -Wall -Isrc -o bin/test_linked_list tests/test_linked_list.c src/linked_list/linked_list.c
-./bin/test_linked_list
-```
+_Happy Learning! Keep Coding!_ 🚀
 
----
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
-## Contributing 🤝
-
-Contributions are welcome! A suggested workflow:
-
-1. Fork the repository. 🍴
-2. Create a descriptive branch: git checkout -b feat/<data-structure-name> or fix/<issue-number> 🌿
-3. Implement code in src/ and headers in include/ where appropriate. 🧩
-4. Add or update examples in examples/ and tests in tests/. 🧪
-5. Follow the repository coding style (see below). 🧭
-6. Submit a PR with a clear title and description of changes. ✨
-
-When opening an issue or PR, include:
-- What you changed or propose. 📝
-- Why it's necessary or beneficial. 💡
-- How to test the change (build/run steps). 🛠️
-
----
-
-## Coding Style & Guidelines 🧭
-
-- Target C11 standard. 🧾
-- Use clear, descriptive names (snake_case for functions and variables). 🐍
-- Keep functions small and focused. ✂️
-- Document public functions in header files with brief comments describing behavior, parameters, and return values. 🧾
-- Check and handle allocation failures. ⚠️
-- Prefer static functions for internal module helpers. 🔒
-- Keep example programs simple and educational; avoid unnecessary complexity. 🎓
-
-Example header guard:
-```c
-#ifndef LINKED_LIST_H
-#define LINKED_LIST_H
-
-/* public API */
-
-#endif /* LINKED_LIST_H */
-```
-
----
-
-## Issues & Feature Requests 🐛
-
-If you find bugs, missing implementations, or improvements:
-- Open an issue describing the problem, steps to reproduce, and expected behavior. 📝
-- If you want to add a new data structure/algorithm, open an issue first to discuss the API and tests (optional but appreciated). 💬
-
----
-
-## License 📝
-
-This repository does not currently include a license file. If you want to make the code reusable, consider adding an open-source license such as MIT.
-
-Example (MIT) header for new files:
-```
-/* Copyright (c) YEAR Your Name
- *
- * Permission is hereby granted, free of charge...
- */
-```
-
-Replace YEAR and Your Name appropriately. 📜
-
----
-
-## Acknowledgements 🌟
-
-- Classic textbooks and resources on data structures and algorithms (CLRS, Goodrich & Tamassia, online tutorials). 📚
-- Community contributors and reviewers. 🙏
-
----
-
-If you'd like, I can:
-- Add this README to the repository on a new branch and open a pull request. ✅
-- Or create a LICENSE file (MIT) and a simple Makefile to make building easier. 🧾🔧
-
-Tell me which action you'd like me to take next (commit branch name or any extra files to add) and I'll proceed.
+</div>
